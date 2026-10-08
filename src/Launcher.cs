@@ -724,6 +724,16 @@ namespace EldenMinecraftLauncher
                     var want = Regex.Match(rel, @"""CoreSha256""\s*:\s*""([0-9a-fA-F]{64})""").Groups[1].Value;
                     var core = d.GameDir == null ? null : Path.Combine(d.GameDir, "erbridge", "erbridge_core.dll");
                     d.UpToDate = want.Length == 64 && core != null && File.Exists(core) && string.Equals(Hash(core), want, StringComparison.OrdinalIgnoreCase);
+                    // release que so troca o jar (core igual) tambem precisa atualizar os perfis
+                    var wantJar = Regex.Match(rel, @"""JarSha256""\s*:\s*""([0-9a-fA-F]{64})""").Groups[1].Value;
+                    if (d.UpToDate && wantJar.Length == 64)
+                        foreach (var i in d.Insts)
+                        {
+                            var mods = Path.Combine(i.Dir, ".minecraft", "mods");
+                            if (!Directory.Exists(mods)) continue;
+                            foreach (var jar in Directory.GetFiles(mods, "er-bridge*.jar"))
+                                if (!string.Equals(Hash(jar), wantJar, StringComparison.OrdinalIgnoreCase)) d.UpToDate = false;
+                        }
                 }
                 catch { }
             }
