@@ -13,6 +13,8 @@ param(
 )
 $ErrorActionPreference = 'Stop'
 $repo = Split-Path $PSScriptRoot
+# quem esta numa release antiga precisa conseguir atualizar pelo JOGAR (hashes antigos nas listas do updater)
+& (Join-Path $PSScriptRoot 'Test-UpdateKnownHashes.ps1')
 & (Join-Path $PSScriptRoot 'Make-Dist.ps1')
 $zip = Join-Path $repo 'dist\MineRing-Launcher.zip'
 if (-not (Test-Path $zip)) { throw "Nao achei $zip" }

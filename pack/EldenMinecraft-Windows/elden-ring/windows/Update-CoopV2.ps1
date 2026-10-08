@@ -99,6 +99,7 @@ $knownJars=@(
     '83e9ea95a2783f31a3a5286520bc638cdc0d25595405bca045a77fa1dbf42de8',
     '7fb5b7eb62e188c82afe2bf17a970a86cb1a96f890d8fec1fc9aab5e34f234a8',
     '87a12d1f4cf9561fc1bd6854ba2cb1fd1700ce50b4476ec204a1d62605c2e463',
+    '730e075e18078d663cc968bbb48f9c74651c1cd12a4a7234ecce6a3d9401cfc9',
     $release.JarSha256
 )
 $coreEntry=@($active.Manifest.Entries | Where-Object RelativePath -ceq 'erbridge\erbridge_core.dll')
