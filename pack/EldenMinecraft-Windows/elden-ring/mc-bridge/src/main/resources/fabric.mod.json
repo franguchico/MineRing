@@ -2,9 +2,23 @@
 	"schemaVersion": 1,
 	"id": "erbridge",
 	"version": "${version}",
-	"name": "ER Bridge (Experimental)",
-	"description": "Experimental passthrough bridge that runs Minecraft inside Elden Ring, with native Windows and macOS/CrossOver support.",
-	"authors": ["justbustin"],
+	"name": "MineRing - ER Bridge",
+	"description": "MineRing: Minecraft dentro do Elden Ring, em co-op, no Windows. Feito por Franguchico - https://minering.franchico.com\nBaseado na ponte original de justbustin (Mac/CrossOver, MIT).",
+	"authors": [
+		{
+			"name": "Franguchico",
+			"contact": {
+				"homepage": "https://minering.franchico.com",
+				"youtube": "https://www.youtube.com/@franguchico"
+			}
+		}
+	],
+	"contributors": ["justbustin (ponte original, MIT)"],
+	"contact": {
+		"homepage": "https://minering.franchico.com",
+		"sources": "https://github.com/franguchico/MineRing",
+		"issues": "https://github.com/franguchico/MineRing/issues"
+	},
 	"license": "MIT",
 	"icon": "assets/erbridge/icon.png",
 	"environment": "*",
