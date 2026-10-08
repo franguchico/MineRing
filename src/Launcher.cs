@@ -1354,7 +1354,7 @@ namespace EldenMinecraftLauncher
 
             p.Children.Add(Heading("Em 4 passos"));
             p.Children.Add(StepCard(1, "Confira os Preparativos", "Tudo verde na aba Jogar. Se algo estiver vermelho, abra a aba INSTALAR: ela instala Prism, perfil, ponte e Seamless sozinha, passo a passo. Quem já tem tudo pode ignorar essa aba."));
-            p.Children.Add(StepCard(2, "Escolha seu papel", "" + (players.Host.Nick.Length > 0 ? players.Host.Nick : "O anfitrião") + " é o Anfitrião nos dois jogos. " + (players.Guest.Nick.Length > 0 ? players.Guest.Nick : "O convidado") + " é o Convidado. Os dois PCs precisam estar na mesma versão (windows.6)."));
+            p.Children.Add(StepCard(2, "Escolha seu papel", "Um jogador é o Anfitrião nos dois jogos e o outro é o Convidado. Os dois PCs precisam estar na mesma versão (windows.6)."));
             p.Children.Add(StepCard(3, "Clique em JOGAR", "O launcher atualiza o pacote se precisar (com backup), abre o Elden Ring pelo Seamless (sem anti-cheat) e depois o Minecraft no perfil certo. Enquanto os jogos estiverem abertos, o botão mostra RODANDO e vira PARAR."));
             p.Children.Add(StepCard(4, "Entrem na partida", "Anfitrião: escolhe o personagem de teste no Seamless, inicia a sessão com a senha combinada, abre o mundo no Minecraft e passa o endereço e4mc para o amigo.\nConvidado: escolhe só o personagem \"Steve\", entra na sessão e, no Minecraft, usa Multiplayer > Conexão direta com esse endereço (pode colar no launcher antes de jogar).\nComecem juntos, em chão firme de Limgrave."));
 

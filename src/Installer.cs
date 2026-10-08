@@ -469,8 +469,7 @@ namespace EldenMinecraftLauncher
                     : new Row { State = St.Warn, Title = "Java 21", Detail = "Não achei. Sem problema: o Prism baixa o Java 21 sozinho (precisa de internet na primeira abertura).", ActionText = "Instalador oficial", Action = () => OpenUrl(Pins.JavaUrl) });
             }
             RenderRowList(p, rows);
-            var nick = role == "host" ? players.Host.Nick : players.Guest.Nick;
-            F<TextBlock>("InstRoleText").Text = (role == "host" ? "Anfitrião" : "Convidado") + (nick.Length > 0 ? " · " + nick : "");
+            F<TextBlock>("InstRoleText").Text = role == "host" ? "Anfitrião" : "Convidado";
         }
 
         void ShowInstError(string title, string body)
