@@ -1,0 +1,14 @@
+{
+  "hud.erbridge.mode_survival": "Minecraft: vida nos corações · F8: Elden Ring",
+  "hud.erbridge.mode_creative": "Minecraft: criativo · F8: Elden Ring",
+  "hud.erbridge.mode_spectator": "Minecraft: espectador · F8: Elden Ring",
+  "entity.erbridge.boss": "chefe de Elden Ring",
+  "entity.erbridge.enemy": "inimigo de Elden Ring",
+  "entity.erbridge.npc": "personagem de Elden Ring",
+  "death.attack.erbridge.monster": "%1$s foi morto por %2$s",
+  "death.attack.erbridge.monster_hit": "%1$s foi morto por um inimigo de Elden Ring",
+  "death.attack.erbridge.monster_hit.player": "%1$s foi morto por um inimigo de Elden Ring enquanto lutava contra %2$s",
+  "death.attack.erbridge.status": "%1$s sucumbiu a um efeito de estado",
+  "death.attack.erbridge.status.player": "%1$s sucumbiu a um efeito de estado enquanto lutava contra %2$s",
+  "death.attack.erbridge.host_death": "%1$s morreu nas Terras Intermédias"
+}

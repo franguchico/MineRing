@@ -1,0 +1,55 @@
+AVISOS DE TERCEIROS - MineRing Launcher
+
+Este projeto e de fa, sem fins lucrativos, e nao e afiliado a FromSoftware,
+Bandai Namco, Mojang ou Microsoft. Elden Ring e Minecraft pertencem aos seus donos.
+
+INCLUIDO NO REPOSITORIO (cada licenca exige manter o aviso de copyright)
+
+1. minecraft-crossover-bridge (justbustin) - MIT
+   Base do codigo da ponte em pack/EldenMinecraft-Windows (er-bridge, mc-bridge,
+   scripts). Copyright (c) 2026 justbustin.
+   Aviso original: pack/EldenMinecraft-Windows/LICENSE
+   Fonte: https://github.com/justbustin/minecraft-crossover-bridge
+   (ideia original creditada la a @tobynjacobs)
+
+2. MinHook - BSD 2-Clause
+   Copyright (C) 2009-2017 Tsuda Kageyu. Todos os direitos reservados.
+   Texto: pack/EldenMinecraft-Windows/elden-ring/er-bridge/third_party/minhook/LICENSE.txt
+   Fica ligada estaticamente em erbridge_core.dll (binario da Release).
+
+3. ReShade API headers - BSD 3-Clause
+   Copyright 2014 Patrick Mours. Todos os direitos reservados.
+   Texto: pack/EldenMinecraft-Windows/elden-ring/er-bridge/third_party/reshade/LICENSE.md
+   Somente os headers estao aqui. O ReShade em si NAO e distribuido: baixe a
+   versao 6.8.0 (com suporte a addons) em https://reshade.me/ (uso apenas no
+   jogo offline).
+
+4. Press Start 2P (fonte) - SIL Open Font License 1.1
+   Copyright 2012 The Press Start 2P Project Authors. Texto: assets/fonts/OFL.txt
+   Embutida no .exe do launcher.
+
+5. Gradle Wrapper - Apache License 2.0
+   pack/EldenMinecraft-Windows/elden-ring/mc-bridge/gradle/wrapper e gradlew(.bat).
+   Copyright Gradle, Inc. https://www.apache.org/licenses/LICENSE-2.0
+
+INCLUIDO COM CREDITO (direitos do autor, fora da licenca MIT)
+
+- Musica de fundo (assets/musica-8bit.mp3): "(8bit) ELDEN RING - Main Theme /
+  Short Version (Chiptune Cover)", canal "I'm GearRabbit, make Chiptune / 8bit
+  cover", https://www.youtube.com/watch?v=Kl4-HAepMtM . Pertence ao autor;
+  sera removida a pedido.
+
+NAO INCLUIDO (proibido ou sem licenca de redistribuicao conhecida)
+
+- Seamless Co-op (de LukeYui): o autor proibe redistribuicao. Baixe a v2.0.1 no
+  site oficial/pagina do autor; o pack so a instala a partir do arquivo que voce baixou.
+- Perfis do Prism Launcher (mods Fabric, e4mc etc.): sao de seus respectivos autores.
+- Elden Ring, Minecraft, Steam, Prism Launcher: nao distribuidos.
+
+BAIXADO EM TEMPO DE EXECUCAO NA MAQUINA DO USUARIO (nada disto vai no repositorio nem no zip da Release)
+
+- Prism Launcher 11.1.1 portatil - GPL-3.0. https://github.com/PrismLauncher/PrismLauncher
+  O launcher baixa o zip oficial, confere tamanho e SHA-256 e extrai na pasta do launcher. Codigo-fonte e licenca no repositorio do projeto.
+- Fabric API 0.116.17 - Apache-2.0 e e4mc 6.2.3 - MIT, do Modrinth (urls e hashes fixados no launcher). Cada um pertence aos seus autores.
+- Seamless Co-op v2.0.1 (LukeYui): baixado do release oficial do autor so no PC do usuario, SHA-256 conferido, e o ZIP baixado pelo launcher e apagado depois da instalacao. Nunca incluido aqui.
+- Java 21: baixado pelo proprio Prism (Mojang/Adoptium) na primeira abertura.

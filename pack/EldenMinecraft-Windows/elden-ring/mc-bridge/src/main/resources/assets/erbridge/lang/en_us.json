@@ -1,0 +1,22 @@
+{
+	"hud.erbridge.mode_survival": "Minecraft: health in hearts · F8: Elden Ring",
+	"hud.erbridge.mode_creative": "Minecraft: creative · F8: Elden Ring",
+	"hud.erbridge.mode_spectator": "Minecraft: spectator · F8: Elden Ring",
+	"entity.erbridge.boss": "Elden Ring boss",
+	"entity.erbridge.enemy": "Elden Ring enemy",
+	"entity.erbridge.npc": "Elden Ring character",
+	"block.erbridge.terrain": "ER Terrain",
+	"category.erbridge": "ER Bridge",
+	"key.erbridge.camera_mode": "Switch camera mode (drive Elden Ring / follow Elden Ring)",
+	"key.erbridge.overlay": "Switch control to Elden Ring (F8 in Elden Ring switches back)",
+	"key.erbridge.status": "Debug view (status, hitboxes)",
+	"key.erbridge.hunter": "Tarnished stands in for you (on/off)",
+	"key.erbridge.passthrough": "Draw Minecraft inside Elden Ring (occlusion)",
+	"death.attack.erbridge.monster": "%1$s was slain by %2$s",
+	"death.attack.erbridge.monster_hit": "%1$s was slain by a monster",
+	"death.attack.erbridge.monster_hit.player": "%1$s was slain by a monster while fighting %2$s",
+	"death.attack.erbridge.status": "%1$s succumbed to a status ailment",
+	"death.attack.erbridge.status.player": "%1$s succumbed to a status ailment while fighting %2$s",
+	"death.attack.erbridge.host_death": "%1$s died in the Lands Between",
+	"key.erbridge.action": "Elden Ring action (open, pick up, touch grace)"
+}

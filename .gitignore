@@ -1,0 +1,25 @@
+# build
+bin/
+obj/
+*.exe
+*.pdb
+build/
+build-msvc/
+out/
+.gradle/
+
+# release e logs
+dist/
+*.zip
+*.sha256
+*.log
+
+# config local
+config.txt
+.env
+*.local
+*.bak
+
+# sistema
+Thumbs.db
+.DS_Store
